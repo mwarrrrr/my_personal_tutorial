@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Links</title>
+
+	<style> 
+		a:Link 
+		{
+			color: darkgrey;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+		a:visited
+		{
+			color: grey;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+		a:active
+		{
+			color : red;
+			background-color: green;
+			text-decoration: none;
+		}
+		a:hover
+		{
+			color: darkred;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+
+		
+	</style>
+
+
+</head>
+<body>
+
+	<h3>Internal Links</h3>
+	<a href="MawarAtikah_2022662982.html"> Daily Task</a>
+
+	<h4>External Links</h4>
+	<a href="https://www.cidb.gov.my/"> CIDB Website</a>
+
+	<h5>Target Attribute</h5>
+	<!-- _self,_blank,_parents,_top -->
+
+	<a href="html_images.html" target="blank">
+	HTML Images </a>
+
+	<h3>Image as Links</h3>
+	<a href="https://www.cidb.gov.my/" target ="_blank" title="go to cidb website"><img src="buttons/button_text.png"> </a>
+
+	<h4>Button as Links</h4>
+	<button onclick="document.location='html_basic_struture.html'">HTML Basic Struture</button>
+
+
+
+
+</body>
+</html>
